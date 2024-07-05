@@ -1,0 +1,13 @@
+{
+  "name": "zoom fn meet",
+  "version": "0.1.0",
+  "description": "zooms fn meet",
+  "manifest_version": 3,
+  "author": "k10wl",
+  "content_scripts": [
+    {
+      "js": ["./script.js"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
